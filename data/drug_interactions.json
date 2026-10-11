@@ -1,0 +1,52 @@
+{
+  "interactions": [
+    {
+      "drugs": ["aspirin", "warfarin"],
+      "risk_level": "high",
+      "risk": "High Bleeding Risk",
+      "warning": "Aspirin combined with Warfarin significantly increases bleeding risk. Avoid concurrent use unless a clinician explicitly supervises INR monitoring."
+    },
+    {
+      "drugs": ["ibuprofen", "aspirin"],
+      "risk_level": "moderate",
+      "risk": "Reduced Cardio Protection",
+      "warning": "Ibuprofen can interfere with the cardioprotective effect of low-dose Aspirin and raise gastrointestinal bleeding risk."
+    },
+    {
+      "drugs": ["paracetamol", "alcohol"],
+      "risk_level": "high",
+      "risk": "Liver Toxicity Warning",
+      "warning": "Paracetamol with alcohol or above-max daily dose can cause severe liver injury. Keep total intake at or below 4g/day in adults and avoid alcohol."
+    },
+    {
+      "drugs": ["acetaminophen", "alcohol"],
+      "risk_level": "high",
+      "risk": "Liver Toxicity Warning",
+      "warning": "Acetaminophen (Paracetamol) plus alcohol increases the risk of acute hepatic toxicity."
+    },
+    {
+      "drugs": ["amoxicillin", "methotrexate"],
+      "risk_level": "high",
+      "risk": "Increased Toxicity",
+      "warning": "Amoxicillin may reduce methotrexate clearance and increase toxicity (mucositis, myelosuppression). Specialist review is required."
+    },
+    {
+      "drugs": ["ibuprofen", "methotrexate"],
+      "risk_level": "high",
+      "risk": "Increased Methotrexate Toxicity",
+      "warning": "NSAIDs such as Ibuprofen can raise methotrexate levels and precipitate bone-marrow and kidney toxicity."
+    },
+    {
+      "drugs": ["warfarin", "ibuprofen"],
+      "risk_level": "high",
+      "risk": "High Bleeding Risk",
+      "warning": "Ibuprofen plus Warfarin markedly increases gastrointestinal bleeding risk. Prefer an alternative analgesic."
+    },
+    {
+      "drugs": ["metformin", "contrast"],
+      "risk_level": "moderate",
+      "risk": "Lactic Acidosis Risk",
+      "warning": "Hold Metformin around iodinated contrast procedures in patients with reduced kidney function to lower lactic acidosis risk."
+    }
+  ]
+}
